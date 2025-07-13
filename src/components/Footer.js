@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <footer className="footer">
@@ -7,9 +8,9 @@ const Footer = () => (
       &copy; {new Date().getFullYear()} StudyBridge LLC. All rights reserved.
     </p>
     <div>
-      <a href="https://studybridge.io/terms" target="_blank" rel="noopener noreferrer">Terms</a>
-      <a href="https://studybridge.io/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-      <a href="https://studybridge.io/eula" target="_blank" rel="noopener noreferrer">EULA</a>
+      <Link to="/terms">Terms</Link>
+      <Link to="/privacy">Privacy Policy</Link>
+      <Link to="/eula">EULA</Link>
     </div>
   </footer>
 );
