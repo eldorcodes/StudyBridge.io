@@ -1,0 +1,75 @@
+.app-section {
+  background-color: #f9fafb;
+  padding: 60px 20px;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.app-section-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-section h2 {
+  font-size: 2rem;
+  background: linear-gradient(to right, #1e3a8a, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  display: inline-block;
+  position: relative;
+}
+
+.app-section h2::before {
+  content: '📲';
+  position: absolute;
+  left: -40px;
+  animation: bounce 1.5s infinite;
+  font-size: 1.8rem;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.app-section p {
+  font-size: 1.1rem;
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.app-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.app-button img {
+  height: 54px;
+  max-width: 200px;
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+.app-button img:hover {
+  transform: scale(1.08);
+}

@@ -1,0 +1,45 @@
+.features {
+  background-color: #f9fbff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.features-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.features h2 {
+  color: #1e3a8a;
+  font-size: 2rem;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  font-size: 18px;
+  margin: 14px 0;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 600px) {
+  .features h2 {
+    font-size: 1.6rem;
+  }
+
+  .features li {
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
