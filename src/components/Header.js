@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // ✅ Import Link
 import './Header.css';
-import logo from '../assets/logo.png'; // Make sure logo is available
+import logo from '../assets/logo.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,8 +13,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <img src={logo} alt="StudyBridge Logo" className="logo" />
-        <span className="brand-name">StudyBridge</span>
+        <Link to="/" className="logo-link">
+          <img src={logo} alt="StudyBridge Logo" className="logo" />
+          <span className="brand-name">StudyBridge</span>
+        </Link>
       </div>
 
       <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>
