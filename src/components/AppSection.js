@@ -3,7 +3,7 @@ import './AppSection.css';
 
 const AppSection = () => {
   return (
-    <section className="app-section">
+    <section id="download-app" className="app-section"> {/* Add id here */}
       <div className="app-section-container">
         <h2>📲 Download the StudyBridge App</h2>
         <p>

@@ -10,8 +10,8 @@ const Hero = () => (
       </p>
 
       <div className="hero-buttons">
-        <a href="/app" className="btn primary">Get Started</a>
-        <a href="#download" className="btn secondary">Download the App</a>
+        <a href="#download-app" className="btn primary">Get Started</a>
+        <a href="#download-app" className="btn secondary">Download the App</a>
       </div>
     </div>
   </section>

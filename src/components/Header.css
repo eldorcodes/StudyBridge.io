@@ -85,3 +85,31 @@
     display: flex;
   }
 }
+
+.download-button {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.download-button:hover {
+  background-color: #2563eb;
+}
+
+.terms-page h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.terms-page h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
