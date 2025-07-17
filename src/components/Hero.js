@@ -6,7 +6,8 @@ const Hero = () => (
     <div className="hero-content">
       <h1>📚 Study in the USA with Confidence</h1>
       <p>
-        StudyBridge helps Uzbek students apply to U.S. colleges and secure their F-1 visas effortlessly. From document uploads to visa interview prep — we support you every step of the way.
+        StudyBridge helps Uzbek students apply to U.S. colleges and secure their F-1 visas effortlessly.
+        From document uploads to visa interview prep — we support you every step of the way.
       </p>
 
       <div className="hero-buttons">

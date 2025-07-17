@@ -1,105 +1,63 @@
 .hero {
-  background: linear-gradient(to right, #004aad, #00b4db);
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
   color: white;
-  text-align: center;
   padding: 80px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: fadeIn 1.2s ease-in;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  text-align: center;
 }
 
 .hero-content {
-  max-width: 750px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 0 16px;
-  position: relative;
 }
 
 .hero h1 {
-  font-size: 2.6rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 20px;
-  position: relative;
-  display: inline-block;
-  animation: bounce 1.8s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-6px);
-  }
+  line-height: 1.2;
 }
 
 .hero p {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 40px;
   line-height: 1.6;
-  margin-bottom: 30px;
-  color: #f1f1f1;
 }
 
 .hero-buttons {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .btn {
-  padding: 12px 24px;
-  font-size: 1rem;
-  font-weight: 600;
+  display: inline-block;
+  padding: 14px 28px;
   border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.btn.primary {
-  background-color: white;
-  color: #004aad;
-  border: none;
+.primary {
+  background-color: #facc15;
+  color: #1d4ed8;
 }
 
-.btn.primary:hover {
-  background-color: #f0f0f0;
+.primary:hover {
+  background-color: #fde047;
+  transform: scale(1.05);
 }
 
-.btn.secondary {
+.secondary {
   border: 2px solid white;
   color: white;
-  background-color: transparent;
+  background: transparent;
 }
 
-.btn.secondary:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-/* Mobile responsiveness */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
+.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
 }
