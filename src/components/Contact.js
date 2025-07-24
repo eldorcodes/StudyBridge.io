@@ -9,9 +9,9 @@ const Contact = () => (
       
       <div className="contact-details">
         <p><strong>📧 Email:</strong> support@studybridge.io</p>
-        <p><strong>📍 Address:</strong> Tashkent, Uzbekistan</p>
+        <p><strong>📍 Address:</strong> San Francisco, CA, USA</p>
         <p><strong>🌐 Website:</strong> <a href="https://studybridge.io" target="_blank" rel="noopener noreferrer">www.studybridge.io</a></p>
-        <p><strong>📲 Telegram:</strong> <a href="https://t.me/studybridgellc" target="_blank" rel="noopener noreferrer">@studybridgellc</a></p>
+        <p><strong>📲 Telegram:</strong> <a href="https://t.me/studybridge_usa" target="_blank" rel="noopener noreferrer">@studybridge_usa</a></p>
       </div>
 
       <div className="contact-cta">
