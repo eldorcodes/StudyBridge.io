@@ -11,7 +11,7 @@ const AppSection = () => {
         </p>
         <div className="app-buttons">
           <a
-            href="https://play.google.com/store/apps/details?id=com.studybridge"
+            href="https://play.google.com/store/apps/details?id=com.merncodeltd.studybridge"
             className="app-button android"
             target="_blank"
             rel="noopener noreferrer"
