@@ -19,7 +19,7 @@ const AppSection = () => {
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" />
           </a>
           <a
-            href="https://apps.apple.com/us/app/studybridge/io.studybridge.app"
+            href="https://apps.apple.com/us/app/studybridge-f1-visa-guide/id6749338186"
             className="app-button ios"
             target="_blank"
             rel="noopener noreferrer"
